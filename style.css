@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    background:#f3f3f3;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:Arial,sans-serif;
+}
+
+.timer-app{
+    width:340px;
+    background:white;
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+h1{
+    color:#ff5b57;
+}
+
+#time{
+    font-size:60px;
+    font-weight:bold;
+    margin:25px 0;
+}
+
+button{
+    padding:12px 18px;
+    margin:8px;
+    border:none;
+    border-radius:10px;
+    background:#ff5b57;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+}
